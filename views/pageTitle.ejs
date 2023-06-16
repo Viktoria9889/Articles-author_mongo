@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <%- include('partials/head'); %>
+</head>
+
+<body>
+    <div class="nav">
+        <%- include('partials/nav'); %>
+    </div>
+    <div class="wrapper">
+
+        <form action="" class="formTitle">
+            <h2>
+                Введіть назву
+            </h2>
+            <input type="text" name="title" class="title" placeholder="Назва..." required>
+            <h2>
+                Введіть текст
+            </h2>
+            <textarea type="text" name="text" class="text" placeholder="Текст.."></textarea>
+            <h2>
+                Виберіть автора
+            </h2>
+            <select name="select" class="select title">
+    
+            </select>
+            
+            <button type="submit" class="btn">Добавити</button>
+        </form>
+
+
+    </div>
+    </div> 
+    
+    <script src="./js/frontTitle.js"></script>
+</body>
+
+</html>
